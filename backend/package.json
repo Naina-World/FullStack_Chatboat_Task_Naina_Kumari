@@ -1,0 +1,41 @@
+{
+  "name": "dronetv-assistant-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API for DroneTV AI Support and Lead Assistant",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "dronetv",
+    "express",
+    "typescript",
+    "mongodb",
+    "mongoose",
+    "chatbot",
+    "enquiry-management"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
